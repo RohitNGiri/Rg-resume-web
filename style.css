@@ -1,0 +1,71 @@
+.data {
+
+    padding-left: 0%;
+    padding-right: 0%;
+    /* padding: 0%; */
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container {
+    display: block;
+    padding-top: 3%;
+
+}
+
+h2,
+h3,
+p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0.6%;
+
+}
+
+h3 {
+    margin-top: -4%;
+    margin-bottom: 1.5%;
+
+}
+
+.profile-pic {
+    width: 159px;
+    height: 193px;
+    border: 2px solid black;
+    margin-top: 36px;
+}
+
+
+.personal-details {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    position: sticky;
+
+}
+
+.contact {
+    margin-top: 4%;
+}
+
+.contact p {
+    padding-bottom: 8px;
+
+}
+
+hr {
+    width: 100%;
+    padding: 0%;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+@page {
+    margin: 1%;
+
+
+}
