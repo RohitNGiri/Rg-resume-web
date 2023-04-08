@@ -1,12 +1,17 @@
 .data {
 
-    padding-left: 0%;
-    padding-right: 0%;
-    /* padding: 0%; */
     /* margin-right: 2%;
     margin-left: 2%; */
 
 
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 7px;
+    align-items: center;
 }
 
 .border {
@@ -16,6 +21,11 @@
 }
 
 .content {
+    margin-top: 36px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 2%;
     display: flex;
     /* background-color: #3b34b8; */
     align-items: center;
@@ -25,7 +35,8 @@
 
 body {
 
-    margin: 5%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
     /* background-color: blue; */
 }
 
@@ -54,7 +65,7 @@ h3 {
     width: 159px;
     height: 193px;
     border: 2px solid black;
-    margin-top: 36px;
+    margin-right: 20px;
 }
 
 
@@ -74,7 +85,7 @@ h3 {
 }
 
 .contact {
-    margin-top: 4%;
+    margin-top: 1.8%;
 }
 
 .contact p {
@@ -92,18 +103,94 @@ hr {
 }
 
 @page {
-    margin: 1%;
+    margin: 0%;
 
 
 }
 
+.square {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 80px;
+    width: 30px;
+    display: fixed;
+    display: abs;
+    position: absolute;
+    margin-top: 5%;
+}
+
 button {
-    background-color: rgb(76, 87, 100);
+    background-color: lightslategray;
     color: white;
-    border-color: black;
     border-radius: 5px;
     height: 33px;
     margin: 2px;
-    border: 1px solid black;
+    border: 1px solid lightslategray;
 
+}
+
+main {
+    margin-left: 7.2%;
+    margin-right: 7.2%;
+}
+
+h4 {
+    margin-bottom: -20px;
+}
+
+.Education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marks {
+    display: flex;
+    flex-direction: column;
+    height: 224px;
+    justify-content: space-between;
+    gap: 22%;
+    align-items: center;
+}
+
+.link-code {
+
+    display: flex;
+    height: 22px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 24px;
+}
+
+.language-setone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.print-btn {
+    background-color: green;
+    font-size: 20px;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin: 40px;
+
+}
+
+@media print {
+    .noprint {
+        visibility: hidden;
+
+    }
 }
