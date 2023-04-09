@@ -34,10 +34,8 @@
 }
 
 body {
-
     margin: 0%;
     font-family: 'Times New Roman', Times, serif;
-
     /* background-color: blue; */
 }
 
@@ -113,16 +111,123 @@ hr {
 
 }
 
-.square {
+.square1 {
     background-color: lightseagreen;
     color: lightseagreen;
-    height: 80px;
+    height: 63px;
     width: 30px;
-    display: fixed;
-    display: abs;
     position: absolute;
-    margin-top: 5%;
+    margin-top: 7%;
 }
+
+.square2 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 59px;
+    width: 30px;
+    position: absolute;
+    margin-top: 13%;
+}
+
+.square3 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 58px;
+    width: 30px;
+    position: absolute;
+    margin-top: 19%;
+
+}
+
+.square4 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 58px;
+    width: 30px;
+    position: absolute;
+    margin-top: 25%;
+
+
+}
+
+.square5 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 121px;
+    width: 30px;
+    position: absolute;
+    margin-top: 38%;
+}
+
+.square6 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 126px;
+    width: 30px;
+    position: absolute;
+    margin-top: 50%;
+
+}
+
+.square7 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 118px;
+    width: 30px;
+    position: absolute;
+    margin-top: 63%;
+
+}
+
+.square8 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 128px;
+    width: 30px;
+    position: absolute;
+    margin-top: 75%;
+
+}
+
+.square9 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 98px;
+    width: 30px;
+    position: absolute;
+    margin-top: 93%;
+}
+
+.square10 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 166px;
+    width: 30px;
+    position: absolute;
+    margin-top: 108%;
+
+}
+
+.square11 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 97px;
+    width: 30px;
+    position: absolute;
+    margin-top: 129%;
+
+}
+
+.square12 {
+    background-color: lightseagreen;
+    color: lightseagreen;
+    height: 56px;
+    width: 30px;
+    position: absolute;
+    margin-top: 144%;
+
+}
+
 
 button {
     background-color: lightslategray;
@@ -202,6 +307,14 @@ h4 {
     .noprint {
         visibility: hidden;
 
+    }
+
+    button {
+        color: black;
+    }
+
+    .square-boxes {
+        visibility: hidden;
     }
 }
 
