@@ -152,6 +152,8 @@ h4 {
     justify-content: space-between;
     gap: 22%;
     align-items: center;
+    font-style: italic;
+    color: rgb(62, 61, 61);
 }
 
 .link-code {
@@ -181,11 +183,14 @@ h4 {
 .print-btn {
     background-color: green;
     font-size: 20px;
-    width: 20%;
-    padding-top: 1%;
-    padding-bottom: 3%;
+    width: 30%;
     margin: 40px;
+    height: 50px;
 
+}
+
+.print-btn:hover {
+    background-color: rgb(43, 169, 43);
 }
 
 @media print {
@@ -193,4 +198,12 @@ h4 {
         visibility: hidden;
 
     }
+}
+
+.color-text {
+    color: lightseagreen;
+    font-style: italic;
+    font-weight: lighter;
+
+
 }

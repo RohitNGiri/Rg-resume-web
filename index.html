@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200">
     <script src="https://kit.fontawesome.com/a879b5417c.js" crossorigin="anonymous"></script>
     <title>Rohit Giri Resume</title>
     <link rel="stylesheet" href="style.css">
@@ -95,7 +95,7 @@
                     <h4>2023 - 2024</h4>
                 </section>
             </div>
-            <div class="marks">
+            <div class="marks ">
                 <h3>75%</h3>
                 <h3>53%</h3>
                 <h3>75%</h3>
@@ -198,7 +198,7 @@
                     View<br>
                     View
                 </a>
-                <span>
+                <span class="color-text">
                     Issued Jul 2020<br>
                     Issued Jul 2022<br>
                     Issued Jul 2022<br>
@@ -265,12 +265,12 @@
         <div class="language-setone">
             <section>
                 <h4>English</h4><br>
-                <span>Working & Bilingual Proﬁciency</span>
+                <span class="color-text">Working & Bilingual Proﬁciency</span>
 
             </section>
             <section>
                 <h4>Marathi</h4><br>
-                <span>Native or Bilingual Proﬁciency</span>
+                <span class="color-text">Native or Bilingual Proﬁciency</span>
 
             </section>
 
@@ -278,12 +278,12 @@
         <div class="language-setone">
             <section>
                 <h4>Hindi</h4><br>
-                <span>Native or Bilingual Proﬁciency</span>
+                <span class="color-text">Native or Bilingual Proﬁciency</span>
 
             </section>
             <section>
                 <h4>Urdu </h4><br>
-                <span>Native Understandable &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <span class="color-text">Native Understandable &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span>
 
             </section>
 
@@ -312,5 +312,17 @@
 </body>
 
 <!-- <button onclick="window.print()">Download PDF</button> -->
+
+<script>
+    function myFunction() {
+        if (confirm("Download Resume as Pdf ?")) {
+            window.print();
+        }
+
+    }
+
+    setTimeout(myFunction(), 10000)
+    // alert('Download Resume as Pdf ?')
+</script>
 
 </html>
