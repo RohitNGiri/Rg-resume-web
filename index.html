@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1200">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <script src="https://kit.fontawesome.com/a879b5417c.js" crossorigin="anonymous"></script>
     <title>Rohit Giri Resume</title>
     <link rel="stylesheet" href="style.css">
@@ -314,15 +314,21 @@
 <!-- <button onclick="window.print()">Download PDF</button> -->
 
 <script>
+    const isMobileDevice = /Mobi/i.test(window.navigator.userAgent);
+
     function myFunction() {
-        if (confirm("Download Resume as Pdf ?")) {
+        if (isMobileDevice) {
             window.print();
         }
-
+        else if (confirm("Do you want to download Resume as Pdf?")) {
+            window.print();
+        }
     }
+    // if (typeof screen.orientation !== 'undefined') { ... }
+    // console.log(isMobileDevice);
+    setTimeout(myFunction())
 
-    setTimeout(myFunction(), 10000)
-    // alert('Download Resume as Pdf ?')
+
 </script>
 
 </html>

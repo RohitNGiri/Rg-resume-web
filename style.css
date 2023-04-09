@@ -37,6 +37,7 @@ body {
 
     margin: 0%;
     font-family: 'Times New Roman', Times, serif;
+
     /* background-color: blue; */
 }
 
@@ -104,6 +105,10 @@ hr {
 
 @page {
     margin: 0%;
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+    -ms-print-color-adjust: exact;
+    print-color-adjust: exact;
 
 
 }
