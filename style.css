@@ -26,7 +26,7 @@
     margin-right: 2%;
     padding-left: 1%;
     padding-right: 2%;
-    display: flex;
+
     /* background-color: #3b34b8; */
     align-items: center;
     flex-direction: row;
@@ -84,7 +84,10 @@ h3 {
 }
 
 .contact {
-    margin-top: 1.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact p {
@@ -117,7 +120,7 @@ hr {
     height: 63px;
     width: 30px;
     position: absolute;
-    margin-top: 7%;
+    margin-top: 8.5%;
 }
 
 .square2 {
@@ -126,7 +129,7 @@ hr {
     height: 59px;
     width: 30px;
     position: absolute;
-    margin-top: 13%;
+    margin-top: 15.5%;
 }
 
 .square3 {
@@ -135,7 +138,7 @@ hr {
     height: 58px;
     width: 30px;
     position: absolute;
-    margin-top: 19%;
+    margin-top: 22.5%;
 
 }
 
@@ -145,7 +148,7 @@ hr {
     height: 58px;
     width: 30px;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 29.5%;
 
 
 }
@@ -156,7 +159,7 @@ hr {
     height: 121px;
     width: 30px;
     position: absolute;
-    margin-top: 38%;
+    margin-top: 44.5%;
 }
 
 .square6 {
@@ -165,7 +168,7 @@ hr {
     height: 126px;
     width: 30px;
     position: absolute;
-    margin-top: 50%;
+    margin-top: 56.5%;
 
 }
 
@@ -175,7 +178,7 @@ hr {
     height: 118px;
     width: 30px;
     position: absolute;
-    margin-top: 63%;
+    margin-top: 70.5%;
 
 }
 
