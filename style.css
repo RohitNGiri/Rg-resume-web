@@ -1,18 +1,13 @@
-.data {
-
-    /* margin-right: 2%;
-    margin-left: 2%; */
-
-
-}
-
 .icons {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 7px;
     align-items: center;
+    font-family: Arail;
 }
+
+
 
 
 
@@ -22,6 +17,7 @@
     margin-right: 2%;
     padding-left: 1%;
     padding-right: 2%;
+    font-family: Arail;
 
     /* background-color: #3b34b8; */
     align-items: center;
@@ -31,13 +27,14 @@
 
 body {
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arail;
     /* background-color: blue; */
 }
 
 .container {
     display: block;
     padding-top: 3%;
+    font-family: Arail;
 
 }
 
@@ -47,12 +44,14 @@ p {
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-top: 0.6%;
+    font-family: Arail;
 
 }
 
 h3 {
     margin-top: 4%;
-    margin-bottom: 1.5%;
+    margin-bottom: -1%;
+    font-family: Arail;
 
 }
 
@@ -61,6 +60,7 @@ h3 {
     height: 193px;
     border: 2px solid black;
     margin-right: 20px;
+    font-family: Arail;
 }
 
 
@@ -74,7 +74,7 @@ h3 {
     /* background-color: #3b34b8; */
     /* color: antiquewhite; */
     font-family: Arial, Helvetica, sans-serif;
-
+    font-family: Arail;
 
 
 }
@@ -84,10 +84,12 @@ h3 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: Arail;
 }
 
 .contact p {
     padding-bottom: 8px;
+    font-family: Arail;
 
 }
 
@@ -95,9 +97,7 @@ hr {
     width: 100%;
     padding: 0%;
     margin: 0%;
-    color: black;
-    background-color: black;
-    border-color: black;
+    height: 1px;
 }
 
 @page {
@@ -106,6 +106,7 @@ hr {
     -moz-print-color-adjust: exact;
     -ms-print-color-adjust: exact;
     print-color-adjust: exact;
+
 
 
 }
@@ -235,16 +236,19 @@ button {
     height: 33px;
     margin: 2px;
     border: 1px solid lightslategray;
+    font-family: Arail;
 
 }
 
 main {
     margin-left: 7.2%;
     margin-right: 7.2%;
+    font-family: Arail;
 }
 
 h4 {
     margin-bottom: -20px;
+    font-family: Arail;
 }
 
 .Education {
@@ -252,6 +256,7 @@ h4 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: Arail;
 }
 
 .marks {
@@ -263,6 +268,7 @@ h4 {
     align-items: center;
     font-style: italic;
     color: rgb(62, 61, 61);
+    font-family: Arail;
 }
 
 .link-code {
@@ -272,6 +278,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    font-family: Arail;
 }
 
 .certificate-container {
@@ -280,12 +287,14 @@ h4 {
     align-items: center;
     justify-content: space-between;
     line-height: 24px;
+    font-family: Arail;
 }
 
 .language-setone {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: Arail;
 
 }
 
@@ -295,25 +304,30 @@ h4 {
     width: 30%;
     margin: 40px;
     height: 50px;
+    font-family: Arail;
 
 }
 
 .print-btn:hover {
     background-color: rgb(43, 169, 43);
+    font-family: Arail;
 }
 
 @media print {
     .noprint {
         visibility: hidden;
+        font-family: Arail;
 
     }
 
     button {
-        color: black;
+        color: rgb(255, 255, 255);
+        font-family: Arail;
     }
 
     .square-boxes {
         visibility: hidden;
+        font-family: Arail;
     }
 }
 
@@ -321,6 +335,15 @@ h4 {
     color: lightseagreen;
     font-style: italic;
     font-weight: lighter;
+    font-family: Arail;
+
+}
 
 
+.educa {
+    /* color: rgb(19, 109, 254); */
+    color: black;
+    background-color: beige;
+    padding: 2px 0px 2px 10px;
+    font-family: Arail;
 }
