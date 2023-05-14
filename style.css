@@ -234,6 +234,7 @@ button {
     color: white;
     border-radius: 5px;
     height: 33px;
+    font-size: 18px;
     margin: 2px;
     border: 1px solid lightslategray;
     font-family: Arail;
@@ -249,6 +250,7 @@ main {
 h4 {
     margin-bottom: -20px;
     font-family: Arail;
+
 }
 
 .Education {
