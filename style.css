@@ -228,15 +228,20 @@ hr {
 
 }
 
+.skill-tools {
+    font-weight: 500;
+}
+
 
 button {
-    background-color: lightslategray;
-    color: white;
+    background-color: #727272;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     height: 33px;
     font-size: 18px;
+    border: 2px solid black;
     margin: 2px;
-    border: 1px solid lightslategray;
+    border: none;
     font-family: Arail;
 
 }
